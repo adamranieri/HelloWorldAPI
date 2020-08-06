@@ -14,8 +14,13 @@ public class App {
 			ctx.html(greeting);
 		};
 		
+		Handler hola = (ctx)->{
+			String saludo = "<h1>Hola Todos</h1>";
+			ctx.html(saludo);
+		};
 		
 		app.get("/hello", hello);
+		app.get("/hola", hola);
 		
 	}
 }
