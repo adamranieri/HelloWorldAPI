@@ -10,7 +10,7 @@ public class App {
 		
 		Handler hello = (ctx) ->{
 			
-			String greeting = "<h1>Hello Everyone</h1>";
+			String greeting = "<h1>Hello Everyone v2</h1>";
 			ctx.html(greeting);
 		};
 		
